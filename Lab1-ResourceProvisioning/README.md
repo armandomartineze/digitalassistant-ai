@@ -16,6 +16,6 @@ ___
 
 2. In the Compartment Dropdown list, select the compartment where you want to create the resources.
 
-![](./images/lab1-resourceprovisioning-2.png)
+![](/images/lab1-resourceprovisioning-2.png)
 
 3. 
