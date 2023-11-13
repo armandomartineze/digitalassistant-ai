@@ -43,5 +43,7 @@ ___
 ```
 allow any-user to use ai-service-language-family in tenancy
 allow any-user to use ai-service-vision-analyze-image in tenancy
-``
+```
+6. Click Create and confirm the subsequent inclusion of the Policy Statements in the AIServicesAccessPolicy policy.
+7. Finally you will search for the OCID of the root compartment, navigate to the **Identity & Security** > **Compartments** page, copy the OCID of the root comparment (or the one where the ODA instance is located). You can hover the mouse over the compartment OCID and click on the copy button there.
   
