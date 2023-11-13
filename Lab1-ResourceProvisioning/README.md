@@ -9,6 +9,13 @@ To enable the pizzeria skill to access the endpoints for these services within t
 Once you gain access to these services, you'll incorporate them into the REST connector capability in Oracle Digital Assistant.
 ___
 
-** Step 1: Granting Access to OCI AI services**
+**Step 1: Granting Access to OCI AI services**
 1. Open the OCI Console and navigate to **Analytics & AI** > **AI Services** > **Digital Assistant**
-2. In the Compartment Dropdown list, select the compartment, the name of which will match that of the tenancy you created when activating your Oracle Cloud Account.
+
+![](./images/lab1-resourceprovisioning-1.png)
+
+2. In the Compartment Dropdown list, select the compartment where you want to create the resources.
+
+![](./images/lab1-resourceprovisioning-2.png)
+
+3. 
