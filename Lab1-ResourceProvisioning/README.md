@@ -12,7 +12,7 @@ ___
 **Step 1: Granting Access to OCI AI services**
 1. Open the OCI Console and navigate to **Analytics & AI** > **AI Services** > **Digital Assistant**
 
-![](./images/lab1-resourceprovisioning-1.png)
+![](images/lab1-resourceprovisioning-1.png)
 
 2. In the Compartment Dropdown list, select the compartment where you want to create the resources.
 
