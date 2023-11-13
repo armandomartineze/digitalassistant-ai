@@ -13,5 +13,30 @@ ___
 
 ![](/images/lab2-importskill-1.png)
   
-5. Once the skill is imported, search the skill by name in the field text "Type in filter or pick from recents"
-6. 
+5. Once the skill is imported, search the skill by name in the field text "Type in filter or pick from recents" and click on skill's name
+
+6. In skill page, select the **Flows**, then select the **UnresolvedIntent**:
+
+![](/images/lab2-importskill-2.png)
+
+this is a simple flow that will allow us to show how you can incorporate other service in Oracle Digital Assistant
+
+7. Select the **SetVariablePrompt** state and take a look:
+
+![](/images/lab2-importskill-3.png)
+
+the *Component* tab shows the variable name **promptStart** that is used.
+
+8. The *Transitions* tab show the next transition to *callRestServiceCohere* state:
+
+![](/images/lab2-importskill-4.png)
+
+Click on a blank space in the flow to close the state properties.
+
+9. Select the *callRestServiceCohere* state and see how it's setup:
+
+The 
+
+10. 
+11. 
+12. 
