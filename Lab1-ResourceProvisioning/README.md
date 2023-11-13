@@ -18,4 +18,13 @@ ___
 
 ![](/images/lab1-resourceprovisioning-2.png)
 
-3. 
+3. Click on **Create digital assistant instance** and fill the form with and click on **Create**:
+
+- **Compartment**: *Your compartment name*
+- **Name**: *Your OCI Digital Assistant instance name*
+- **Description**: *(Optional) Any description*
+- **Shape**: *¨For this lap, you can use a Development instance*
+
+![](/images/lab1-resourceprovisioning-3.png)
+
+5. 
