@@ -9,7 +9,8 @@ To enable the pizzeria skill to access the endpoints for these services within t
 Once you gain access to these services, you'll incorporate them into the REST connector capability in Oracle Digital Assistant.
 ___
 
-**Step 1: Granting Access to OCI AI services**
+**Step 1: Create an Oracle Digital Assistangt instance**
+
 1. Open the OCI Console and navigate to **Analytics & AI** > **AI Services** > **Digital Assistant**
 
 ![](/images/lab1-resourceprovisioning-1.png)
@@ -27,4 +28,20 @@ ___
 
 ![](/images/lab1-resourceprovisioning-3.png)
 
-5. 
+___
+
+**Step 2: Grant acccess to OCI AI Services** 
+
+1. Open the OCI Console navigate to the **Identity & Security** > **Policies** page
+2. In the Compartment Dropdown list, select the (root) compartment
+3. Click **Create Policy** to open the policy editor. Fill in the form with the following details:
+- **Name**: *Define a name for you policy*
+- **Description**: *Any description for your policy*
+- **Compartment**: *Confirm this is pointing to your root compartment*
+4. Set the Policy Builder’s **Show Manual Editor** toggle to **ON**
+5. Paste this statements into the Policy Builder:
+```
+allow any-user to use ai-service-language-family in tenancy
+allow any-user to use ai-service-vision-analyze-image in tenancy
+``
+  
