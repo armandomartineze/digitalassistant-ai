@@ -5,7 +5,7 @@ In this lab you will import the Starter Skill and open the skill by clicking on 
 ___
 **Step 1: Import the Skill**
 
-1. Download the skill, click in this link [Starter Skill](/main/cohere(1.0).zip) and click on Dowload:
+1. Download the skill, click in this link [Starter Skill](/cohere(1.0).zip) and click on Dowload:
 
 [](/images/lab2-importskill-0.png)
 
