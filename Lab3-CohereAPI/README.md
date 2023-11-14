@@ -9,7 +9,7 @@ ___
 
 1. From ![Cohere Site](https://cohere.com/) get an account and create an API Key from account settings:
 
-![](/images/lab3-coherekkm-3.png)
+![](/images/lab3-coherellm-3.png)
 
 ___
 
@@ -17,7 +17,7 @@ ___
 
 1. Open the ODA menu button on the top left, select **Settings** > **API Services**
 
-![](/images/lab3-coherekkm-1.png)
+![](/images/lab3-coherellm-1.png)
 
 2. Click on **Add REST Service** and fill the page with this information:
 
@@ -26,7 +26,7 @@ ___
 - **Description**: *Define any description for this service*
 - **Methods**: *Select POST Method*
 
-![](/images/lab3-coherekkm-2.png)
+![](/images/lab3-coherellm-2.png)
 
    Click **Create**
 
