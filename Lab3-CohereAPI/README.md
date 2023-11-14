@@ -7,8 +7,9 @@ ___
 
 **Step 1: Get an Cohere account**
 
-1. From 
+1. From ![Cohere Site](https://cohere.com/) get an account and create an API Key from account settings:
 
+![](/images/lab3-coherekkm-3.png)
 
 ___
 
@@ -21,10 +22,12 @@ ___
 2. Click on **Add REST Service** and fill the page with this information:
 
 - **Name**: *Select a name for your API REST Service*
-- **Endpoint**: *the Cohere API Enpoint*
+- **Endpoint**: *the Cohere API Enpoint* **https://api.cohere.ai/v1/generate** 
 - **Description**: *Define any description for this service*
 - **Methods**: *Select POST Method*
 
 ![](/images/lab3-coherekkm-2.png)
+
+   Click **Create**
 
 3. 
