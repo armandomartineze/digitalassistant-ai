@@ -52,4 +52,11 @@ ___
 
 ___
 
-**Step 3: 
+**Step 3: Modify the *Starter Skill* to use the Cohere API REST Service**
+
+1. Open the ODA menu button on the top left, select **Development** > **Skills** > and select the **Cohere** Skill, then select the **Flows** page and select the *UnresolvedIntent*
+
+2. Select the **callRestServiceCohere** state do these change:
+
+3. 
+
