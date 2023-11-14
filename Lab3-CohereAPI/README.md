@@ -30,4 +30,26 @@ ___
 
    Click **Create**
 
-3. 
+3. On the new API REST Service created, you'll need to do some configuration:
+
+- **Authentication Type**: Bearer Token
+- **Token**: *Set the API Key get from Cohere account*
+- **Request**: Use this one to test the service:
+```
+{
+    "max_tokens": 20,
+    "return_likelihoods": "NONE",
+    "truncate": "END",
+    "prompt": "Please explain to me how LLMs work"
+}
+```
+
+![](/images/lab3-coherellm-4.png)
+
+4. Click on **Test Request** and look the response:
+
+![](/images/lab3-coherellm-5.png)
+
+___
+
+**Step 3: 
