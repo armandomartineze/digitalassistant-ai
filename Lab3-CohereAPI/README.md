@@ -54,9 +54,27 @@ ___
 
 **Step 3: Modify the *Starter Skill* to use the Cohere API REST Service**
 
+
 1. Open the ODA menu button on the top left, select **Development** > **Skills** > and select the **Cohere** Skill, then select the **Flows** page and select the *UnresolvedIntent*
 
-2. Select the **callRestServiceCohere** state do these change:
 
-3. 
+2. Select the **callRestServiceCohere** state and then do these changes:
+   
+- **REST Service**: Select an REST Service previously created
+- **Request Body**: Look the variable that is used from the last state
+```
+{
+    "max_tokens": 20,
+    "return_likelihoods": "NONE",
+    "truncate": "END",
+    "prompt": "${promptStart}"
+}
+```
+
+![](/images/lab3-coherellm-6.png)
+
+
+3. Click on any blank space from Flow's page, then click on **Preview**, type *Please explain to me how LLMs work* on text field and then *ENTER*. Look the response:
+
+![](/images/lab3-coherellm-7.png)
 
